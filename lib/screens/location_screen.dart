@@ -9,9 +9,9 @@ import 'city_screen.dart';
 import 'loading_screen.dart';
 
 class LocationScreen extends StatefulWidget {
-  LocationScreen(this.locationWeather);
-
   final locationWeather;
+
+  LocationScreen(this.locationWeather);
 
   @override
   _LocationScreenState createState() => _LocationScreenState();
